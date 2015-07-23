@@ -2,12 +2,14 @@
 
 body {
   font-family: "Hind", Helvetica, Arial, sans-serif;
-  /*padding: 2rem;*/
   line-height: 1.5em;
-  margin: 0;
+  background-color: #fafafa;
 }
 
-
+.max-width {
+  max-width: 1366px;
+  margin: auto;
+}
 
 .button-nav {
   display: inline-block;
@@ -96,7 +98,25 @@ a:hover, a:focus {
 }
 
 .quick-menu {
+  padding: 0;
+}
+
+.quick-menu li{
   list-style-type: none;
-  padding: 2em;
+  display: inline-block;
+  margin: 0em 1em;
+}
+
+.heading-underline {
+  padding-bottom: 1em;
+  border-bottom: 1px solid gray;
+}
+
+.echidna-vid {
+  margin-top: 2em;
+}
+
+.echidna-pdf {
+  margin: 3em 0em;
 }
 
