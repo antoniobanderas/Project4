@@ -1,0 +1,102 @@
+@import url(http://fonts.googleapis.com/css?family=Hind:400,700);
+
+body {
+  font-family: "Hind", Helvetica, Arial, sans-serif;
+  /*padding: 2rem;*/
+  line-height: 1.5em;
+  margin: 0;
+}
+
+
+
+.button-nav {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  color: #000;
+  border: 1px solid #000;
+  border-radius: 0.25em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.button-nav:hover, .button-nav:focus {
+  text-decoration: none;
+  background-color: #000;
+  border: 1px solid #000;
+  color: #FFF;
+}
+
+.nav-menu {
+  display: inline-block;
+  padding: 0.25em 0.5em;
+  color: black;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.nav-menu:hover, .nav-menu:focus {
+  color: white;
+  background-color: black;
+  text-decoration: none;
+}
+
+
+.left-align {
+  text-align: left;
+}
+
+.left {
+  float: left;
+}
+
+.content-text {
+  width: 100%;
+  margin-top: 2em;
+  display: inline-block;
+}
+
+.content-image {
+  width: 100%;
+  margin: 3em 0em;
+}
+
+a {
+  color: rgb(200, 0, 0);
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  text-decoration: underline;
+}
+
+.contact-header {
+  font-size: 0.8em;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}
+
+.h1-adjust {
+  font-size: 2em;
+}
+
+.first-section {
+  height: 45em;
+}
+
+.first-section-h1 {
+  margin-top: 5em;
+  font-size: 3em;
+}
+
+.first-section-text {
+  line-height: 1.5em;
+  font-size: 1.5em;
+}
+
+.quick-menu {
+  list-style-type: none;
+  padding: 2em;
+}
+
