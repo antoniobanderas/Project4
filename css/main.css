@@ -65,7 +65,7 @@ body {
 }
 
 a {
-  color: rgb(200, 0, 0);
+  color: #288BB2;
   text-decoration: none;
 }
 
@@ -97,7 +97,7 @@ a:hover, a:focus {
   font-size: 1.5em;
 }
 
-.quick-menu {
+/*.quick-menu {
   padding: 0;
 }
 
@@ -105,22 +105,53 @@ a:hover, a:focus {
   list-style-type: none;
   display: inline-block;
   margin: 0em 1em;
-}
+}*/
 
 .heading-underline {
   padding-bottom: 1em;
   border-bottom: 1px solid gray;
 }
 
-.echidna-vid {
+.project-vid {
   margin-top: 2em;
 }
 
-.echidna-pdf {
+.project-pdf {
   margin: 3em 0em;
 }
 
 .section-line {
   width: 80%;
   margin: 2em auto;
+}
+
+.logo {
+  position: fixed;
+  left: 3em;
+  top: 1em;
+}
+
+.nav-menu {
+  display: inline-block;
+  padding: 0.25em 1.5em;
+  color: black;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.nav-menu:hover, .nav-menu:focus {
+  color: white;
+  background-color: black;
+  text-decoration: none;
+}
+
+.project-heading {
+  margin-top: 10em;
+  font-size: 2em;
+}
+
+.full-width {
+  width:100%;
+  margin: 1em 0em;
 }
