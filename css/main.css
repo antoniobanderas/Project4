@@ -4,11 +4,13 @@ body {
   font-family: "Hind", Helvetica, Arial, sans-serif;
   line-height: 1.5em;
   background-color: #fafafa;
+  margin: 0;
 }
 
 .max-width {
   max-width: 1366px;
   margin: auto;
+  width: 100%;
 }
 
 .button-nav {
@@ -85,6 +87,15 @@ a:hover, a:focus {
 
 .first-section {
   height: 45em;
+}
+
+.echidna-hero-image {
+  background: url("../img/echidna/echidna-hero-image.png") no-repeat;
+  background-size: cover;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
 }
 
 .first-section-h1 {
@@ -170,4 +181,12 @@ a:hover, a:focus {
 .full-width {
   width:100%;
   margin: 1em 0em;
+}
+
+.ptsd-hero-image {
+  max-width: 1920px;
+}
+
+.echidna-hero-text {
+
 }
