@@ -71,10 +71,6 @@ a {
   text-decoration: none;
 }
 
-a:hover, a:focus {
-  text-decoration: underline;
-}
-
 .contact-header {
   font-size: 0.8em;
   text-transform: uppercase;
@@ -183,10 +179,37 @@ a:hover, a:focus {
   margin: 1em 0em;
 }
 
-.ptsd-hero-image {
+#ptsd-hero-image {
   max-width: 1920px;
 }
 
 .echidna-hero-text {
 
+}
+
+@media (max-width:640px) {
+  .content-text {
+    padding: 1em;
+  }
+
+  #ptsd-hero-image {
+    margin-top:5em;
+  }
+
+  .responsive-center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
+
+.up-arrow {
+  margin-bottom: -1.5em;
+  text-align: center;
+}
+
+.back-to-top {
+  text-decoration: none;
+  border: none;
+  color: black;
 }
