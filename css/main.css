@@ -153,6 +153,10 @@ a {
 }
 
 @media (max-width:640px) {
+  .first-section-text {
+    font-size: 1.25em;
+  }
+
   .logo {
     position: absolute;
     left: 5%;
@@ -207,11 +211,6 @@ a {
     margin-top:5em;
   }
 
-  .responsive-center {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-  }
 }
 
 .up-arrow {
@@ -223,4 +222,49 @@ a {
   text-decoration: none;
   border: none;
   color: black;
+}
+
+
+.profile-pic {
+  margin-top: 13em;
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+}
+
+@media (max-width: 1040px) {
+  .first-section-h1 {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+  }
+
+  .sub-heading {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+  }
+
+  .about-me-text {
+    text-align: center;
+  }
+
+  .about-me-button {
+    float: none;
+  }
+
+  .profile-pic {
+    margin-left: 30%;
+    margin-top: 5em;
+  }
+
+  .skill-summary {
+    margin-left: 15%;
+  }
+}
+
+@media (max-width: 330px) {
+  .first-section-h1 {
+    margin-top: 2em;
+  }
 }
