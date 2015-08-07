@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>Style Guide Template</title>
+
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/grid.css" rel="stylesheet">
+
+
+  </head>
+
+  <body>
+
+    <h1>Style Guide Template</h1>
+
+    <p>A template you can use to start building out your own style guides with.</p>
+
+
+    <nav>
+      
+      <p>
+        Go to:
+        <a href="#interactive_elements">Interactive Elements</a>,
+        <a href="#text_elements">Text Elements</a>,
+        <a href="#combined_elements">Combined Elements</a>,
+        <a href="#sketches">Sketches</a>,
+        <a href="#outline">Outline</a>
+      </p>
+
+    </nav>
+
+
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+
+      <!-- Default Button styling section -->
+      <section>
+
+        <h2>Navigation Button</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.button-nav</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;a href="#" class="button-nav"&gt;Default Button&lt;/a&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <a class="button-nav" href="#">Default Button</a>
+
+      </section>
+
+      <section>
+        <h2>In-text link</h2>
+
+        <h3>CSS selector:</h3>
+        <p>a</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;a href="#"&gt;This is a link&lt;/a&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <a href="#">This is a link</a>
+      </section>
+
+      <section>
+        <h2>Submit/Reset Buttons</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.button-submit, .button-nav</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;a href="#" class="button-nav button-submit"&gt;Submit Button&lt;/a&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <a class="button-nav button-submit" href="#">Submit Button</a>
+      </section>
+
+      <section>
+        <h2>Contact Info</h2>
+
+        <h3 class="contact-header">Contact Me</h3>
+
+        <p>If you're interested in contacting me, send me an email:</p>
+        <a href="#">tentativeemail@sfu.ca</a>
+      </section>
+
+    </section>
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+
+      <section>
+        <h2>Headings</h2>
+
+          <h3>CSS Selector:</h3>
+        <p>h1, h2, h3</p>
+
+        <h3>Sample code:</h3>
+        <code>
+        &lt;h1&gt;Heading 1&lt;/h1&gt;
+        </code>
+
+        <h3>Rendered Element:</h3>
+
+        <h1 class="h1-adjust">Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+      </section>
+
+      <section>
+        <h2>Paragraphs</h2>
+
+        <h3>CSS Selector:</h3>
+        <p>p</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;p&gt;...&lt;/p&gt;</code>
+
+        <h3>Rendered Element:</h3>
+        <p>This is a paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel nulla et massa malesuada dictum eget at urna. Cras ac lacus nec dolor viverra iaculis. Phasellus non leo erat. Praesent condimentum sem sit amet nunc viverra, in sagittis nunc dapibus. In hac habitasse platea dictumst.</p>
+      </section>
+
+      <section>
+        <h2>Bulleted Lists</h2>
+
+        <h3>CSS Selector:</h3>
+        <p>ul</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;ul&gt;...&lt;/ul&gt;</code>
+
+        <h3>Rendered Element:</h3>
+        <ul>
+          <li>List item 1</li>
+          <li>List item 1</li>
+          <li>List item 1</li>
+          <li>List item 1</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Numbered Lists</h2>
+
+        <h3>CSS Selector:</h3>
+        <p>ol</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;ol&gt;...&lt;/ol&gt;</code>
+
+        <h3>Rendered Element:</h3>
+        <ol>
+          <li>List item 1</li>
+          <li>List item 2</li>
+          <li>List item 3</li>
+          <li>List item 4</li>
+        </ol>
+      </section>
+
+    </section>
+    <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+
+      <section>
+        <h2>Main Navigation</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.nav-menu</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;a href="#" class="nav-menu"&gt;Default Button&lt;/a&gt;</code>
+
+        <h3>Rendered Element:</h3>
+        <a class="nav-menu" href="#"><h4>Menu Item 1</h4></a><a class="nav-menu" href="#"><h4>Menu Item 2</h4></a><a class="nav-menu" href="#"><h4>Menu Item 3</h4></a><a class="nav-menu" href="#"><h4>Menu Item 4</h4></a><a class="nav-menu" href="#"><h4>Menu Item 5</h4></a>
+      </section>
+
+      <section class="spacing">
+        <div class="grid">
+          <h2>Product Listing</h2>
+          <div class="col-1of10">&nbsp;</div>
+          <div class="col-2of10 content-text">
+            <h1 class="left-align">Lorem ipsum dolor</h1>
+            <p class="left-align">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc at justo quis mi elementum accumsan. Quisque vitae ex sed elit maximus accumsan sed id ipsum. Pellentesque id sapien vitae nisi volutpat vehicula.</p>
+            <a class="button-nav left" href="#">Default Button</a>
+          </div>
+
+          <div class="col-1of10">&nbsp;</div>
+
+          <div class="col-5of10">
+            <img class="content-image" src="http://cdn.bmwblog.com/wp-content/uploads/BMW-Vision-EfficientDynamics-Concept-410.jpg">
+          </div>
+
+          <div class="col-1of10">&nbsp;</div>
+        </div>
+      </section>
+
+    </section>
+
+    <section id="sketches">
+      <section>
+        <h2>Sketches</h2>
+        <img src="img/02.jpg" width="850" height="1100">
+        <img src="img/01.jpg" width="850" height="1100">
+        <img src="img/03.jpg" width="1100" height="800">
+        <img src="img/04.jpg" width="850" height="1100">
+      </section>
+    </section>
+
+    <section id="outline">
+      <section>
+        <h2>Outline</h2>
+        <p>Potential employers: AKQA, SAP, Ensemble</p>
+        <p>Position: Designer</p>
+
+        <h4>What skills are needed for the position?</h4>
+        <ul>
+          <li>Implement a combination of strategic, conceptual and design skills</li>
+          <li>Create and manage original, persuasive, conceptual and visually compelling work</li>
+          <li>Inspire and provide mentorship, embracing challenges and new ways of thinking</li>
+          <li>Collaborate with the client and various teams within AKQA</li>
+        </ul>
+
+        <h4>What qualifications are needed for the position?</h4>
+        <ul>
+          <li>A compelling portfolio of work</li>
+          <li>The drive to break boundaries and craft the best ideas in the world of their kind</li>
+          <li>Fearlessly, boundlessly creative and relentlessly attentive to detail</li>
+        </ul>
+
+        <h4>What kinds of terms do your employers use to describe themselves?</h4>
+        <p>Innovative, imaginative, beautiful, influential, pioneer, define, leader, design, ideate, deliver, sophisticated, collaborate, ground-breaking, distinguished, unrivalled, world-class, obsessed, redefining, entrepreneurial</p>
+
+        <h4>What about the company interests you most?</h4>
+        <p>Their accolades. They have won many innovation awards and multiple Agency of the Year awards. Surely they are doing something right to garner such praise.</p>
+
+        <h4>Who is your audience?</h4>
+        <p>Potential employers and Andrew + Paul</p>
+
+        <h4>What do they need to know in visiting your site?</h4>
+        <p>I can (somewhat) code in HTML/CSS, C++, Java (Arduino/Processing) and design</p>
+
+        <h4>Where and how will they access that content?</h4>
+        <p>Social media (e.g. Facebook, LinkedIn, Twitter)</p>
+
+        <h4>What will uniquely identify your brand?</h4>
+        <p>I can (kind of) code and design</p>
+
+      </section>
+
+    </section>
+    
+    <!-- // COMBINED ELEMENTS SECTION -->
+
+
+  </body>
+</html>
